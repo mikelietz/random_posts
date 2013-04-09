@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <pluggable type="plugin">
 	<name>Random Posts</name>
-	<url>http://mikelietz.org/code/habari/</url>
+	<url>http://github.com/mikelietz/random_posts/</url>
 	<version>1.0</version>
 	<author url="http://mikelietz.org/">Mike Lietz</author>
 	<guid>e3dc9780-4229-11dd-ae16-0800200c9a66</guid>
 	<description><![CDATA[Lists random posts, based on tags to include and/or exclude.]]></description>
+	<help><value><![CDATA[To use, <code>echo $theme->random_posts();</code> to your theme where you want the list output.]]></value></help>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license> 
 </pluggable>

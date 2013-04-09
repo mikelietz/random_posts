@@ -11,12 +11,6 @@ class RandomPosts extends Plugin
 {
 	private $config = array();
 	private $random_posts = '';
- 
-	public function help() 
-	{
-		$help = _t( 'To use, add <code>&lt;?php $theme->random_posts(); ?&gt;</code> to your theme where you want the list output.' );
-		return $help;
-	}
 
 	public function action_init()
 	{
